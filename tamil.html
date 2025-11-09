@@ -323,6 +323,10 @@
             background-color: white;
         }
 
+         .center-product {
+           grid-column: 2 / 3;
+        }
+
         .section-title {
             text-align: center;
             margin-bottom: 50px;
@@ -900,129 +904,131 @@
     </section>
 
     <!-- Products Section -->
-        <!-- Products Section -->
     <section class="products" id="products">
-        <div class="container">
-            <div class="section-title">
-                <h2>எங்கள் கரிம பொருட்கள்</h2>
-                <p>தூய, உண்மையான, நம்பகமான பண்ணைகளில் இருந்து நேரடியாக பெறப்பட்டது</p>
+    <div class="container">
+        <div class="section-title">
+            <h2>எங்கள் கரிம பொருட்கள்</h2>
+            <p>தூய, உண்மையான, நம்பகமான பண்ணைகளில் இருந்து நேரடியாக பெறப்பட்டது</p>
+        </div>
+        <div class="products-grid">
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="images/red-rice.png" alt="ரதசாலி சிவப்பு அரிசி">
+                </div>
+                
+                <h3>ரதசாலி சிவப்பு அரிசி</h3>
+                <p>முனிவர்கள், அரச குடும்பங்கள் மற்றும் கோவில் பூசாரிகள் மட்டுமே பயன்படுத்திய பாரம்பரிய குறுங்கதிர் சிவப்பு அரிசி. இரும்பு, ஆக்ஸிஜனேற்ற எதிர்ப்பிகள் மற்றும் மெதுவாக செரிக்கும் கார்போஹைட்ரேட்டுகள் நிறைந்தது.</p>
+                <div class="price">₹200/கிகி</div>
+                <div class="contact-buttons">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp('ரதசாலி சிவப்பு அரிசி')">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="btn btn-call" onclick="makeCall()">
+                        <i class="fas fa-phone-alt"></i> அழைக்கவும்
+                    </button>
+                </div>
             </div>
-            <div class="products-grid">
-                <div class="product-item">
-                    <div class="product-icon">
-                        <i class="fas fa-seedling"></i>
-                    </div>
-                    <h3>ரதசாலி சிவப்பு அரிசி</h3>
-                    <p>முனிவர்கள், அரச குடும்பங்கள் மற்றும் கோவில் பூசாரிகள் மட்டுமே பயன்படுத்திய பாரம்பரிய குறுங்கதிர் சிவப்பு அரிசி. இரும்பு, ஆக்ஸிஜனேற்ற எதிர்ப்பிகள் மற்றும் மெதுவாக செரிக்கும் கார்போஹைட்ரேட்டுகள் நிறைந்தது.</p>
-                    <div class="price">₹200/கிகி</div>
-                    <div class="contact-buttons">
-                        <button class="btn btn-whatsapp" onclick="openWhatsApp('ரதசாலி சிவப்பு அரிசி')">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </button>
-                        <button class="btn btn-call" onclick="makeCall()">
-                            <i class="fas fa-phone-alt"></i> அழைக்கவும்
-                        </button>
-                    </div>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="images/paneer.jpg" alt="புதிய பன்னீர்">
                 </div>
-                <div class="product-item">
-                    <div class="product-icon">
-                        <i class="fas fa-cheese"></i>
-                    </div>
-                    <h3>புதிய பன்னீர்</h3>
-                    <p>தூய, கரிம பாலில் இருந்து கைவண்ணத்தில் தயாரிக்கப்பட்டது. எங்கள் பன்னீர் புரதம் மற்றும் கால்சியம் நிறைந்தது, பாதுகாக்கும் பொருட்கள் அல்லது சேர்க்கைகள் இல்லை.</p>
-                    <div class="price">₹100/கிகி</div>
-                    <div class="contact-buttons">
-                        <button class="btn btn-whatsapp" onclick="openWhatsApp('புதிய பன்னீர்')">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </button>
-                        <button class="btn btn-call" onclick="makeCall()">
-                            <i class="fas fa-phone-alt"></i> அழைக்கவும்
-                        </button>
-                    </div>
+                <h3>புதிய பன்னீர்</h3>
+                <p>தூய, கரிம பாலில் இருந்து கைவண்ணத்தில் தயாரிக்கப்பட்டது. எங்கள் பன்னீர் புரதம் மற்றும் கால்சியம் நிறைந்தது, பாதுகாக்கும் பொருட்கள் அல்லது சேர்க்கைகள் இல்லை.</p>
+                <div class="price">₹100/கிகி</div>
+                <div class="contact-buttons">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp('புதிய பன்னீர்')">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="btn btn-call" onclick="makeCall()">
+                        <i class="fas fa-phone-alt"></i> அழைக்கவும்
+                    </button>
                 </div>
-                <div class="product-item">
-                    <div class="product-icon">
-                        <i class="fas fa-oil-can"></i>
-                    </div>
-                    <h3>தேங்காய் எண்ணெய்</h3>
-                    <p>பாரம்பரிய முறைகளைப் பயன்படுத்தி பிரித்தெடுக்கப்பட்ட குளிர்-அழுத்தப்பட்ட, கன்னி தேங்காய் எண்ணெய். ஆரோக்கியமான கொழுப்பு அமிலங்கள் மற்றும் ஆக்ஸிஜனேற்ற எதிர்ப்பிகளில் நிறைந்தது.</p>
-                    <div class="price">₹400/லிட்டர்</div>
-                    <div class="contact-buttons">
-                        <button class="btn btn-whatsapp" onclick="openWhatsApp('தேங்காய் எண்ணெய்')">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </button>
-                        <button class="btn btn-call" onclick="makeCall()">
-                            <i class="fas fa-phone-alt"></i> அழைக்கவும்
-                        </button>
-                    </div>
+            </div>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="images/coconut-oil.jpg" alt="தேங்காய் எண்ணெய்">
                 </div>
-                <div class="product-item">
-                    <div class="product-icon">
-                        <i class="fas fa-oil-can"></i>
-                    </div>
-                    <h3>நிலக்கடலை எண்ணெய்</h3>
-                    <p>இயற்கை கொட்டை சுவை கொண்ட தூய, குளிர்-அழுத்தப்பட்ட நிலக்கடலை எண்ணெய். வைட்டமின் ஈ மற்றும் ஒற்றைநிறைவற்ற கொழுப்புகளில் நிறைந்தது.</p>
-                    <div class="price">₹270/லிட்டர்</div>
-                    <div class="contact-buttons">
-                        <button class="btn btn-whatsapp" onclick="openWhatsApp('நிலக்கடலை எண்ணெய்')">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </button>
-                        <button class="btn btn-call" onclick="makeCall()">
-                            <i class="fas fa-phone-alt"></i> அழைக்கவும்
-                        </button>
-                    </div>
+                <h3>தேங்காய் எண்ணெய்</h3>
+                <p>பாரம்பரிய முறைகளைப் பயன்படுத்தி பிரித்தெடுக்கப்பட்ட குளிர்-அழுத்தப்பட்ட, கன்னி தேங்காய் எண்ணெய். ஆரோக்கியமான கொழுப்பு அமிலங்கள் மற்றும் ஆக்ஸிஜனேற்ற எதிர்ப்பிகளில் நிறைந்தது.</p>
+                <div class="price">₹400/லிட்டர்</div>
+                <div class="contact-buttons">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp('தேங்காய் எண்ணெய்')">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="btn btn-call" onclick="makeCall()">
+                        <i class="fas fa-phone-alt"></i> அழைக்கவும்
+                    </button>
                 </div>
-                <div class="product-item center-product">
-                    <div class="product-icon">
-                        <i class="fas fa-seedling"></i>
-                    </div>
-                    <h3>கரிம அரிசி</h3>
-                    <p>இயற்கையான முறையில் விளைவிக்கப்பட்ட தூய கரிம அரிசி. வேதி உரங்கள் மற்றும் பூச்சிக்கொல்லிகள் இல்லாமல் விளைவிக்கப்பட்டது. ஆரோக்கியமான மற்றும் சுவையான.</p>
-                    <div class="price">₹80/கிகி</div>
-                    <div class="contact-buttons">
-                        <button class="btn btn-whatsapp" onclick="openWhatsApp('கரிம அரிசி')">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </button>
-                        <button class="btn btn-call" onclick="makeCall()">
-                            <i class="fas fa-phone-alt"></i> அழைக்கவும்
-                        </button>
-                    </div>
+            </div>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="images/peanut-oil.jpg" alt="நிலக்கடலை எண்ணெய்">
                 </div>
-                <div class="product-item">
-                    <div class="product-icon">
-                        <i class="fas fa-oil-can"></i>
-                    </div>
-                    <h3>எள் எண்ணெய்</h3>
-                    <p>ஆற்றல் மிக்க நறுமணம் மற்றும் சுவை கொண்ட தூய, குளிர்-அழுத்தப்பட்ட எள் எண்ணெய். அதன் ஆக்ஸிஜனேற்ற எதிர்ப்பு பண்புகள் மற்றும் உயர் புகை புள்ளிக்கு அறியப்பட்டது.</p>
-                    <div class="price">₹380/லிட்டர்</div>
-                    <div class="contact-buttons">
-                        <button class="btn btn-whatsapp" onclick="openWhatsApp('எள் எண்ணெய்')">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </button>
-                        <button class="btn btn-call" onclick="makeCall()">
-                            <i class="fas fa-phone-alt"></i> அழைக்கவும்
-                        </button>
-                    </div>
+                <h3>நிலக்கடலை எண்ணெய்</h3>
+                <p>இயற்கை கொட்டை சுவை கொண்ட தூய, குளிர்-அழுத்தப்பட்ட நிலக்கடலை எண்ணெய். வைட்டமின் ஈ மற்றும் ஒற்றைநிறைவற்ற கொழுப்புகளில் நிறைந்தது.</p>
+                <div class="price">₹270/லிட்டர்</div>
+                <div class="contact-buttons">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp('நிலக்கடலை எண்ணெய்')">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="btn btn-call" onclick="makeCall()">
+                        <i class="fas fa-phone-alt"></i> அழைக்கவும்
+                    </button>
                 </div>
-                <div class="product-item center-product">
-                    <div class="product-icon">
-                        <i class="fas fa-mortar-pestle"></i>
-                    </div>
-                    <h3>மாட்டு நெய்</h3>
-                    <p>பாரம்பரிய பிலோனா முறையைப் பயன்படுத்தி தயாரிக்கப்பட்ட தூய தேசி மாட்டு நெய். ஊட்டச்சத்துக்கள் நிறைந்தது மற்றும் தனித்துவமான நறுமணம் மற்றும் சுவை கொண்டது.</p>
-                    <div class="price">₹450/500 மிலி</div>
-                    <div class="contact-buttons">
-                        <button class="btn btn-whatsapp" onclick="openWhatsApp('மாட்டு நெய்')">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </button>
-                        <button class="btn btn-call" onclick="makeCall()">
-                            <i class="fas fa-phone-alt"></i> அழைக்கவும்
-                        </button>
-                    </div>
+            </div>
+            <div class="product-item center-product">
+                <div class="product-image">
+                    <img src="images/organic-rice.jpg" alt="கரிம அரிசி">
+                </div>
+                <h3>கரிம அரிசி</h3>
+                <p>இயற்கையான முறையில் விளைவிக்கப்பட்ட தூய கரிம அரிசி. வேதி உரங்கள் மற்றும் பூச்சிக்கொல்லிகள் இல்லாமல் விளைவிக்கப்பட்டது. ஆரோக்கியமான மற்றும் சுவையான.</p>
+                <div class="price">₹80/கிகி</div>
+                <div class="contact-buttons">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp('கரிம அரிசி')">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="btn btn-call" onclick="makeCall()">
+                        <i class="fas fa-phone-alt"></i> அழைக்கவும்
+                    </button>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="images/sesame-oil.jpg" alt="எள் எண்ணெய்">
+                </div>
+                <h3>எள் எண்ணெய்</h3>
+                <p>ஆற்றல் மிக்க நறுமணம் மற்றும் சுவை கொண்ட தூய, குளிர்-அழுத்தப்பட்ட எள் எண்ணெய். அதன் ஆக்ஸிஜனேற்ற எதிர்ப்பி பண்புகள் மற்றும் உயர் புகை புள்ளிக்கு அறியப்பட்டது.</p>
+                <div class="price">₹380/லிட்டர்</div>
+                <div class="contact-buttons">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp('எள் எண்ணெய்')">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="btn btn-call" onclick="makeCall()">
+                        <i class="fas fa-phone-alt"></i> அழைக்கவும்
+                    </button>
+                </div>
+            </div>
+            <div class="product-item center-product">
+                <div class="product-image">
+                    <img src="images/ghee.png" alt="மாட்டு நெய்">
+                </div>
+                <h3>மாட்டு நெய்</h3>
+                <p>பாரம்பரிய பிலோனா முறையைப் பயன்படுத்தி தயாரிக்கப்பட்ட தூய தேசி மாட்டு நெய். ஊட்டச்சத்துக்கள் நிறைந்தது மற்றும் தனித்துவமான நறுமணம் மற்றும் சுவை கொண்டது.</p>
+                <div class="price">₹450/500 மிலி</div>
+                <div class="contact-buttons">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp('மாட்டு நெய்')">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="btn btn-call" onclick="makeCall()">
+                        <i class="fas fa-phone-alt"></i> அழைக்கவும்
+                    </button>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
     <!-- Payment Section -->
     <section class="payment" id="payment">
         <div class="container">
@@ -1176,103 +1182,104 @@
 
     <script>
         // Product data for rotating card (Tamil)
-        const products = [
-            {
-                name: "ரதசாலி சிவப்பு அரிசி",
-                description: "முனிவர்கள் மற்றும் அரச குடும்பங்களுக்கு மட்டுமே ஒதுக்கப்பட்ட பாரம்பரிய குறுங்கதிர் சிவப்பு அரிசி. இரும்பு, ஆக்ஸிஜனேற்ற எதிர்ப்பிகள் மற்றும் மெதுவாக செரிக்கும் கார்போஹைட்ரேட்டுகள் நிறைந்தது.",
-                price: "₹200/கிகி",
-                icon: "fas fa-seedling"
-            },
-            {
-                name: "புதிய பன்னீர்",
-                description: "தூய, கரிம பாலில் இருந்து கைவண்ணத்தில் தயாரிக்கப்பட்டது. புரதம் மற்றும் கால்சியம் நிறைந்தது, பாதுகாக்கும் பொருட்கள் அல்லது சேர்க்கைகள் இல்லை.",
-                price: "₹100/கிகி",
-                icon: "fas fa-cheese"
-            },
-            {
-                name: "தேங்காய் எண்ணெய்",
-                description: "பாரம்பரிய முறைகளைப் பயன்படுத்தி பிரித்தெடுக்கப்பட்ட குளிர்-அழுத்தப்பட்ட, கன்னி தேங்காய் எண்ணெய். ஆரோக்கியமான கொழுப்பு அமிலங்களில் நிறைந்தது.",
-                price: "₹400/லிட்டர்",
-                icon: "fas fa-oil-can"
-            },
-            {
-                name: "நிலக்கடலை எண்ணெய்",
-                description: "இயற்கை கொட்டை சுவை கொண்ட தூய, குளிர்-அழுத்தப்பட்ட நிலக்கடலை எண்ணெய். வைட்டமின் ஈ மற்றும் ஒற்றைநிறைவற்ற கொழுப்புகளில் நிறைந்தது.",
-                price: "₹270/லிட்டர்",
-                icon: "fas fa-oil-can"
-            },
-            {
-                name: "எள் எண்ணெய்",
-                description: "ஆற்றல் மிக்க நறுமணம் மற்றும் சுவை கொண்ட தூய, குளிர்-அழுத்தப்பட்ட எள் எண்ணெய். அதன் ஆக்ஸிஜனேற்ற எதிர்ப்பு பண்புகள் மற்றும் உயர் புகை புள்ளிக்கு அறியப்பட்டது.",
-                price: "₹380/லிட்டர்",
-                icon: "fas fa-oil-can"
-            },
-            {
-                name: "மாட்டு நெய்",
-                description: "பாரம்பரிய பிலோனா முறையைப் பயன்படுத்தி தயாரிக்கப்பட்ட தூய தேசி மாட்டு நெய். ஊட்டச்சத்துக்கள் நிறைந்தது, தனித்துவமான நறுமணம் கொண்டது.",
-                price: "₹450/500 மிலி",
-                icon: "fas fa-mortar-pestle"
-            },
-            {
-                name: "கரிம அரிசி",
-                description: "இயற்கையான முறையில் விளைவிக்கப்பட்ட தூய கரிம அரிசி. வேதி உரங்கள் மற்றும் பூச்சிக்கொல்லிகள் இல்லாமல் விளைவிக்கப்பட்டது. ஆரோக்கியமான மற்றும் சுவையான.",
-                price: "₹80/கிகி",
-                icon: "fas fa-seedling"
-            }
-        ];
+        // Product data for rotating card
+const products = [
+    {
+        name: "Rathasali Red Rice",
+        description: "Traditional short-grain red rice once reserved for rishis and royalty. Rich in iron, antioxidants and slow-digesting carbohydrates.",
+        price: "₹200/kg",
+        image: "images/red-rice.png"
+    },
+    {
+        name: "Fresh Paneer",
+        description: "Handcrafted from pure, organic milk. Rich in protein and calcium with no preservatives or additives.",
+        price: "₹100/kg",
+        image: "images/paneer.jpg"
+    },
+    {
+        name: "Coconut Oil",
+        description: "Cold-pressed, virgin coconut oil extracted using traditional methods. Rich in healthy fatty acids.",
+        price: "₹400/liter",
+        image: "images/coconut-oil.jpg"
+    },
+    {
+        name: "Groundnut Oil",
+        description: "Pure, cold-pressed groundnut oil with natural nutty flavor. Rich in vitamin E and monounsaturated fats.",
+        price: "₹270/liter",
+        image: "images/peanut-oil.jpg"
+    },
+    {
+        name: "Sesame Oil",
+        description: "Pure, cold-pressed sesame oil with rich aroma and flavor. Known for its antioxidant properties.",
+        price: "₹380/liter",
+        image: "images/sesame-oil.jpg"
+    },
+    {
+        name: "Cow Ghee",
+        description: "Pure desi cow ghee made using traditional bilona method. Rich in nutrients with distinct aroma.",
+        price: "₹450/500 ml",
+        image: "images/ghee.png"
+    },
+    {
+        name: "Organic Rice",
+        description: "Pure organic rice cultivated using natural farming methods. Free from chemicals and pesticides. Healthy and flavorful.",
+        price: "₹80/kg",
+        image: "images/organic-rice.jpg"
+    }
+];
 
-        // Initialize rotating card
-        function initRotatingCard() {
-            const cardContainer = document.getElementById('rotatingCard');
-            
-            // Create card faces
-            products.forEach((product, index) => {
-                const cardFace = document.createElement('div');
-                cardFace.className = `card-face ${index === 0 ? 'active' : ''}`;
-                
-                cardFace.innerHTML = `
-                    <div class="product-image">
-                        <i class="${product.icon}"></i>
-                    </div>
-                    <div class="product-info">
-                        <h3>${product.name}</h3>
-                        <p>${product.description}</p>
-                        <div class="product-price">${product.price}</div>
-                        <div class="contact-buttons">
-                            <button class="btn btn-whatsapp" onclick="openWhatsApp('${product.name}')">
-                                <i class="fab fa-whatsapp"></i> ஆர்டர் செய்க
-                            </button>
-                            <button class="btn btn-call" onclick="makeCall()">
-                                <i class="fas fa-phone-alt"></i> அழைக்கவும்
-                            </button>
-                        </div>
-                    </div>
-                `;
-                
-                cardContainer.appendChild(cardFace);
-            });
-            
-            // Add dots for navigation
-            const cardNav = document.createElement('div');
-            cardNav.className = 'card-nav';
-            cardNav.innerHTML = `
-                <div class="card-dots">
-                    ${products.map((_, i) => 
-                        `<span class="dot ${i === 0 ? 'active' : ''}" onclick="rotateToCard(${i})"></span>`
-                    ).join('')}
+// Initialize rotating card
+function initRotatingCard() {
+    const cardContainer = document.getElementById('rotatingCard');
+    
+    // Create card faces
+    products.forEach((product, index) => {
+        const cardFace = document.createElement('div');
+        cardFace.className = `card-face ${index === 0 ? 'active' : ''}`;
+        
+        cardFace.innerHTML = `
+            <div class="product-image">
+                <img src="${product.image}" alt="${product.name}">
+            </div>
+            <div class="product-info">
+                <h3>${product.name}</h3>
+                <p>${product.description}</p>
+                <div class="product-price">${product.price}</div>
+                <div class="contact-buttons">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp('${product.name}')">
+                        <i class="fab fa-whatsapp"></i> Order
+                    </button>
+                    <button class="btn btn-call" onclick="makeCall()">
+                        <i class="fas fa-phone-alt"></i> Call
+                    </button>
                 </div>
-            `;
-            
-            // Append the navigation to the card container
-            cardContainer.appendChild(cardNav);
-            
-            // Auto rotate every 5 seconds
-            setInterval(() => {
-                rotateCard();
-            }, 5000);
-        }
+            </div>
+        `;
+        
+        cardContainer.appendChild(cardFace);
+    });
+    
+    // Add dots for navigation
+    const cardNav = document.createElement('div');
+    cardNav.className = 'card-nav';
+    cardNav.innerHTML = `
+        <div class="card-dots">
+            ${products.map((_, i) => 
+                `<span class="dot ${i === 0 ? 'active' : ''}" onclick="rotateToCard(${i})"></span>`
+            ).join('')}
+        </div>
+    `;
+    
+    // Append the navigation to the card container
+    cardContainer.appendChild(cardNav);
+    
+    // Auto rotate every 5 seconds
+    setInterval(() => {
+        rotateCard();
+    }, 5000);
+}
 
-        let currentCardIndex = 0;
+let currentCardIndex = 0;
 
         // Rotate to next card
         function rotateCard() {
